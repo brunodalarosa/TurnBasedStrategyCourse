@@ -7,7 +7,7 @@ public class Unit : MonoBehaviour
 
     private float MoveSpeed { get; set; } = 4f;
 
-    void Update()
+    private void Update()
     {
         float stoppingDistance = .1f;
 
